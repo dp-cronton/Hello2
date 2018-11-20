@@ -19,7 +19,7 @@ namespace Hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to " + txtBxName.Text + "'s program");
+            MessageBox.Show("Hello "  +txtBxName.Text +" and "+textBox1.Text);
         }
     }
 }
